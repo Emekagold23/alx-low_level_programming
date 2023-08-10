@@ -4,7 +4,7 @@
 
 /**
  * malloc_checked - function that allocates memory
- * @b - size of memory
+ * @b: size of memory
  * Return: pointer to the new allocated memory
  */
 
@@ -17,5 +17,7 @@ void *malloc_checked(unsigned int b)
 
 	if (ptr == NULL)
 		exit(98);
-	return (ptr);
+
+	else
+		return (ptr);
 }
